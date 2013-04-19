@@ -1,7 +1,7 @@
 {
   "name": "Dn9x Search",
   "version": "1.0.0",
-  "description": "Dn9x Right Menu Search, Mail:xiuxu123@live.cn",
+  "description": "Dn9x Right Menu Search",
   "permissions": ["contextMenus", "tabs"],
   "background": {
     "scripts": ["sample.js"]
@@ -11,5 +11,10 @@
     "48": "search_48.png",
     "128": "search_128.png"
   },
-  "manifest_version": 2
+  "manifest_version": 2,
+  "browser_action": {
+    "default_icon": "search_32.png", 
+    "default_title": "Dn9x快捷搜索",    
+    "default_popup": "popup.html"      
+  }
 }
